@@ -1,4 +1,4 @@
-# 🔍 Fraud Detection — End-to-End Deep Learning MLOps Pipeline on Azure ML
+# 🔍 Fraud Detection — End-to-End Deep Learning Pipeline on Azure ML
 
 > **Author:** Mohamad Faisal Bashir · Class: TK-47-04 · NIM: 101032300036
 
