@@ -4,8 +4,6 @@
 
 An end-to-end deep learning pipeline for detecting fraudulent financial transactions using the IEEE-CIS Fraud Detection transaction dataset. This project covers the full workflow required in the assignment: data loading, memory optimization, exploratory data analysis, data cleaning, feature engineering, missing value handling, class imbalance handling using **SMOTE/SMOTENC**, tabular deep learning model training with TensorFlow/Keras, automated hyperparameter tuning using Optuna, evaluation with fraud-relevant metrics, and experiment tracking with **MLflow on Azure Machine Learning**.
 
-> **Important note:** The assignment description mentions both transaction and identity tables. However, this implementation follows the development constraint that only `train_transaction.csv` is used. Therefore, the notebook creates train, validation, and test splits from `train_transaction.csv`.
-
 ---
 
 ## 📋 Table of Contents
