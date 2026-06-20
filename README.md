@@ -1,5 +1,3 @@
-# 🚀 Machine Learning & Deep Learning MLOps Portfolio
-
 👤 **Author Profile**
 
 * **Name:** Mohamad Faisal Bashir
