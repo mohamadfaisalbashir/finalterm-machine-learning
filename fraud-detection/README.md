@@ -148,9 +148,7 @@ This project builds a deep learning-based fraud detection pipeline that handles:
 1. In Azure ML Studio, open **Compute > Compute instances**.
 2. Click **+ New**.
 3. Select **CPU** compute.
-4. Recommended size:
-   - **Minimum safe:** `Standard_E4ds_v4` with 4 cores and 32 GB RAM
-   - **Faster option:** `Standard_E8ds_v4` or `Standard_E8ds_v5` if quota and budget allow
+4. Recommended size: `Standard_F8s_v2` with 8 cores and 16 GB RAM
 5. Enable **auto-shutdown** to reduce cost.
 6. Wait until the compute status becomes **Running**.
 
