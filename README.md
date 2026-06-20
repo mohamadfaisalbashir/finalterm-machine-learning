@@ -305,35 +305,6 @@ The fraud detection notebook focuses on threshold-based fraud probability interp
 
 ---
 
-## ⚠️ Notes & Troubleshooting
-
-### 1. GitHub Notebook Rendering
-
-If GitHub cannot render the notebooks because of large outputs, open them using [NBViewer](https://nbviewer.org/) by pasting the GitHub notebook URL.
-
-### 2. MLflow Artifact Logging Warning
-
-In some Azure ML environments, TensorFlow model logging through MLflow may show an API compatibility warning such as:
-
-```text
-API request to endpoint /api/2.0/mlflow/logged-models failed with error code 404
-```
-
-The notebooks still save local model artifacts to `outputs/`, and metrics/parameters can still be tracked in MLflow.
-
-### 3. Runtime Optimization
-
-To reduce runtime:
-
-* lower `N_TRIALS`,
-* reduce epochs,
-* use tuning samples,
-* use larger batch sizes,
-* use GPU compute when available,
-* stop Azure ML compute when not in use.
-
----
-
 ## 📄 License
 
 Submitted as academic coursework.
